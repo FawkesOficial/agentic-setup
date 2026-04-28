@@ -1,2 +1,2 @@
-# ai-setup
-my agentic coding/development setup
+# agentic-setup
+agentic coding/development setup
