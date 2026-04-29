@@ -18,4 +18,6 @@ Perform the following steps to create a commit:
 4. **Commit the changes** using the generated message. Do NOT use GPG signing — use `--no-gpg-sign`:
 `git commit --no-gpg-sign -m "YOUR_GENERATED_MESSAGE"`
 
+5. **Remind the user** to run manually run `gcs` (a shell alias to `git commit --amend -S --no-edit`) to sign the commit. You **do not run** this command yourself.
+
 If there are no changes to commit, report that instead.
