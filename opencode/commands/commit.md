@@ -5,13 +5,17 @@ description: Analyze changes and generate a commit message matching repo style
 Perform the following steps to create a commit:
 
 1. **Read the following recent commit history** to understand the commit message style used in this repo:
+<context name="recent-commit-history">
 !`git log --oneline -20`
 !`git log -10 --format="%B"`
+</context>
 
 2. **Analyze the following changes** that are staged or modified:
+<context name="current-git-status">
 !`git status`
 !`git diff --staged`
 !`git diff`
+</context>
 
 3. **Generate a commit message** that matches the style and conventions observed in the recent commit history.
 
