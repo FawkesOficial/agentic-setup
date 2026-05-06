@@ -19,6 +19,8 @@
     }
   },
 
-  "permission": "allow"
+  "permission": "allow",
+
+  "plugin": ["superpowers@git+https://github.com/obra/superpowers.git"]
 
 }
