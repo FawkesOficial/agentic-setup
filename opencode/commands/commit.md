@@ -17,7 +17,7 @@ Perform the following steps to create a commit:
 !`git diff`
 </context>
 
-3. **Generate a commit message** that matches the style and conventions observed in the recent commit history.
+3. **Generate a commit message** that matches the style and conventions observed in the recent commit history. If a clear style is not observed, prefer to use **"Conventional Commits"**.
 
 4. **Commit the changes** using the generated message. Do NOT use GPG signing — use `--no-gpg-sign`:
 `git commit --no-gpg-sign -m "YOUR_GENERATED_MESSAGE"`
