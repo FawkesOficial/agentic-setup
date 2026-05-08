@@ -1,6 +1,5 @@
 ---
 description: Analyze changes and generate a commit message matching repo style
-agent: general
 ---
 
 Perform the following steps to create a commit:
