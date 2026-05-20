@@ -31,6 +31,8 @@
     }
   },
 
-  "instructions": ["~/.config/opencode/context7-agents.md"]
+  "instructions": ["~/.config/opencode/context7-agents.md"],
+
+  "lsp": true
 
 }
