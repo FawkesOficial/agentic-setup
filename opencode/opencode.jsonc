@@ -33,6 +33,6 @@
 
   "instructions": ["~/.config/opencode/context7-agents.md"],
 
-  "lsp": true
+  "lsp": false
 
 }
