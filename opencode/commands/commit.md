@@ -16,11 +16,13 @@ Perform the following steps to create a commit:
 !`git diff --staged`
 </context>
 
-3. **Generate a commit message** that matches the style and conventions observed in the recent commit history. If a clear style is not observed, prefer to use **"Conventional Commits"**.
+3. **Use conversation context** (if the conversation was not empty): Review the discussion above for any relevant details about what was being worked on, why changes were made, or specific instructions from the user. Consider/incorporate this context when generating the commit message.
 
-4. **Commit the changes** using the generated message. Do NOT use GPG signing — use `--no-gpg-sign`:
+4. **Generate a commit message** that matches the style and conventions observed in the recent commit history. If a clear style is not observed, prefer to use **"Conventional Commits"**.
+
+5. **Commit the changes** using the generated message. Do NOT use GPG signing — use `--no-gpg-sign`:
 `git commit --no-gpg-sign -m "YOUR_GENERATED_MESSAGE"`
 
-5. **Remind the user** to run manually run `gcs` (a shell alias to `git commit --amend -S --no-edit`) to sign the commit. You **do not run** this command yourself.
+6. **Remind the user** to run manually run `gcs` (a shell alias to `git commit --amend -S --no-edit`) to sign the commit. You **do not run** this command yourself.
 
 If there are no changes to commit, report that instead.
