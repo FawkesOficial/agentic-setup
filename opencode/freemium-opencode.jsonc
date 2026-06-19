@@ -63,7 +63,7 @@
       "color": "accent"
     },
 
-    // PRIMARY 2 — Replaces Gemini 2.5 Pro.
+    // PRIMARY 2 - Replaces Gemini 2.5 Pro.
     // Qwen 3.6 Plus is a frontier-class model with 1M context.
     // It excels at architecture and repo-level planning.
     "plan": {
@@ -82,7 +82,7 @@
       }
     },
 
-    // SUBAGENT — Replaces Gemini 2.5 Flash.
+    // SUBAGENT - Replaces Gemini 2.5 Flash.
     // Step 3.5 Flash (free) is built on an MoE architecture that is 
     // incredibly fast for reading context across 256K tokens.
     "explore": {

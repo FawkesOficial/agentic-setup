@@ -20,7 +20,7 @@ Perform the following steps to create a commit:
 
 4. **Generate a commit message** that matches the style and conventions observed in the recent commit history. If a clear style is not observed, prefer to use **"Conventional Commits"**.
 
-5. **Commit the changes** using the generated message. Do NOT use GPG signing — use `--no-gpg-sign`:
+5. **Commit the changes** using the generated message. Do NOT use GPG signing - use `--no-gpg-sign`:
 `git commit --no-gpg-sign -m "YOUR_GENERATED_MESSAGE"`
 
 6. **Remind the user** to run manually run `gcs` (a shell alias to `git commit --amend -S --no-edit`) to sign the commit. You **do not run** this command yourself.

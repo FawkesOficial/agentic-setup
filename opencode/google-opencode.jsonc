@@ -9,7 +9,7 @@
   // Tab to `plan` for architecture/reasoning sessions, come back for coding.
   "model": "groq/llama-3.3-70b-versatile",
 
-  // Compaction and session titles only — sees summaries, not raw code.
+  // Compaction and session titles only - sees summaries, not raw code.
   // Swap to "groq/llama-3.1-8b-instant" if you want fully Google-free.
   "small_model": "google/gemini-2.5-flash-lite",
 
@@ -35,7 +35,7 @@
     "grep": "allow",
     "list": "allow",
 
-    // Edits are free inside /workspace — the container boundary is the real guard.
+    // Edits are free inside /workspace - the container boundary is the real guard.
     "edit": "allow",
 
     "bash": {
@@ -69,7 +69,7 @@
   // ── Agents ─────────────────────────────────────────────────────────────────
   "agent": {
 
-    // PRIMARY 1 — default, Tab to this for all coding work
+    // PRIMARY 1 - default, Tab to this for all coding work
     "build": {
       "mode": "primary",
       "model": "groq/llama-3.3-70b-versatile",
@@ -78,7 +78,7 @@
       "color": "accent"
     },
 
-    // PRIMARY 2 — Tab here for planning, architecture, hard reasoning
+    // PRIMARY 2 - Tab here for planning, architecture, hard reasoning
     // Uses Gemini 2.5 Pro: best reasoning quality in the free tier.
     // Read-only so it can't touch files while thinking.
     "plan": {
@@ -97,7 +97,7 @@
       }
     },
 
-    // SUBAGENT — auto-invoked for read-only exploration before edits, or @explore
+    // SUBAGENT - auto-invoked for read-only exploration before edits, or @explore
     "explore": {
       "mode": "subagent",
       "model": "google/gemini-2.5-flash",
@@ -109,7 +109,7 @@
       }
     },
 
-    // SUBAGENT — hidden, @reason for hard logic or complex refactors
+    // SUBAGENT - hidden, @reason for hard logic or complex refactors
     // DeepSeek R1 chain-of-thought on Groq: visible reasoning, fast inference.
     "reason": {
       "mode": "subagent",
@@ -119,7 +119,7 @@
       "temperature": 0.6
     },
 
-    // SUBAGENT — hidden, @coder for very long file context tasks (262K window)
+    // SUBAGENT - hidden, @coder for very long file context tasks (262K window)
     "coder": {
       "mode": "subagent",
       "hidden": true,
