@@ -28,10 +28,17 @@
       "headers": {
         "CONTEXT7_API_KEY": "{env:CONTEXT7_API_KEY}"
       }
+    },
+    "searxng": {
+      "type": "local",
+      "command": ["bunx", "mcp-searxng"],
+      "environment": {
+        "SEARXNG_URL": "https://search.fawkeshomelab.com"
+      }
     }
   },
 
-  "instructions": ["~/.config/opencode/context7-agents.md"],
+  "instructions": ["~/.config/opencode/context7-agents.md", "~/.config/opencode/searxng-agents.md"],
 
   "lsp": false
 
