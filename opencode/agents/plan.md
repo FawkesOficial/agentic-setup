@@ -1,7 +1,7 @@
 ---
 description: Analyze code and review suggestions without making any code changes
 mode: primary
-model: opencode-go/mimo-v2.5-pro
+model: opencode-go/kimi-k3.1-pro
 permission:
   edit: deny
   bash: deny

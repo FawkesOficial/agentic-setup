@@ -1,7 +1,7 @@
 ---
 description: Fast, read-only agent for exploring codebases
 mode: subagent
-model: opencode-go/deepseek-v4-flash
+model: opencode-go/deepseek-v4.1-flash
 permission:
   edit: deny
 ---

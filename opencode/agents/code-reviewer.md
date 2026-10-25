@@ -1,7 +1,7 @@
 ---
 description: Reviews code for bugs, best practices, and debugs issues
 mode: subagent
-model: opencode-go/kimi-k2.6
+model: opencode-go/mimo-v2.6-pro
 permission:
   edit: deny
 ---
